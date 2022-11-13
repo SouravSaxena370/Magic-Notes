@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">Magic Notes</div>
+        Home
+        <div id="right">
+            <input id="search" type="text" placeholder="Search Notes">
+            <button id="searchBtn">Search</button>
+        </div>
+    </nav>
+    <div class="localBody">
+        <div class="firstContainer">
+            <h2>Welcome to Magic Notes</h2>
+            <!-- <div class="innerContainer">
+            </div> -->
+            <div class="innerContainer">
+                <h4>Add Title</h4>
+                <textarea name="title" id="enteredTitle" cols="30" rows="1" placeholder="Enter title"></textarea>
+                <h4>Add a Note</h4>
+                <textarea name="note" id="enteredText" cols="30" rows="3"></textarea>
+                <button id="addBtn">Add Note</button>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="secondContainer">
+            <h2>Your Notes</h2>
+            <div id="noteItems">
+            </div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
